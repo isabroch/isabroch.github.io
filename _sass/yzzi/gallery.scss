@@ -8,8 +8,13 @@
   display: none;
   overflow: auto;
   z-index: 1;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor:default;
 }
 
 .modalcontent {
@@ -25,38 +30,59 @@
       background: white;
       margin: 0 auto;
       padding: 10px;
-      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
     }
   }
 
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 10px;
 }
 
 .clickme {
-  flex: 1 0 100px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100px;
+          flex: 1 0 100px;
   //width: 30%;
   //height: 30%;
   padding: 5px;
   max-width:300px;
   cursor: pointer;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .clickme:hover {
-      transform: scale(1.02) scalez(2);
+      -webkit-transform: scale(1.02) scalez(2);
+              transform: scale(1.02) scalez(2);
 }
 
-.clickme::after {
-  content: attr(title);
+.container > div {
+  position: relative;
+  cursor: pointer;
+}
+
+.clickme ~ h3 {
   width: 100%;
-  height: 100px;
-  background: rgba(255, 255, 255, 0.44);
+  background: rgba(255, 255, 255, 0.60);
   color: black;
   text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  padding: 2px;
+text-align: center;
+    font-weight: 650;
+    font-size: 1.5em;
 }
 
 .showing-modal {

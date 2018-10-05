@@ -1,26 +1,25 @@
 $(function() {
 
   var modal = $('.modal')
-  var btn = $('.clickme')
+  var btn = $('.clickme').parent()
 
   btn.click(function() {
-    var target = $(this)
+    var target = $(this);
     var scrollBarWidth = window.innerWidth - document.body.offsetWidth;
-
+console.log('click');
     $('body')
       .css('margin-right', scrollBarWidth)
       .addClass('showing-modal');
 
-    target.next(modal).css("display","block");
+    target.find(modal).css("display","block");
 
-    target.parent().find(".lazy").each(function() {
+    target.find(".lazy").each(function() {
       $(this).attr('src', $(this).attr('data-src'));
     });
 
   });
 
-  modal
-  .click(function() {
+  modal.click(function() {
     var target = $(this)
     modal.hide();
     $('body').removeClass('showing-modal');

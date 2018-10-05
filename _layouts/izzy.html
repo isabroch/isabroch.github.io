@@ -23,7 +23,8 @@ layout: default
   {% for block in site.data.artworkonline.art %}
 
 <div>
-  <img src="{{block.preview}}" class="clickme" title="{{block.title}}">
+  <img src="{{block.preview}}" class="clickme">
+  <h3>{{block.title}}</h3>
   <div class="modal">
     <span class="circle exit"><span class="fas fa-times-circle exit"></span></span>
     <div class="modalcontent">
