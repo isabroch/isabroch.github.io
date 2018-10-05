@@ -1,28 +1,31 @@
 $(function() {
 
   var modal = $('.modal')
-  var btn = $('.clickme').parent()
+  var btn = $('.clickme')
+  var scrollBarWidth = window.innerWidth - document.body.offsetWidth;
 
-  btn.click(function() {
-    var target = $(this);
-    var scrollBarWidth = window.innerWidth - document.body.offsetWidth;
+function doSomething() {
+  var target = $(this);
 console.log('click');
-    $('body')
-      .css('margin-right', scrollBarWidth)
-      .addClass('showing-modal');
+  $('body')
+    .css('margin-right', scrollBarWidth)
+    .addClass('showing-modal');
 
-    target.find(modal).css("display","block");
+  target.parent().find(modal).css("display","block");
 
-    target.find(".lazy").each(function() {
-      $(this).attr('src', $(this).attr('data-src'));
-    });
-
+  target.parent().find(".lazy").each(function() {
+    $(this).attr('src', $(this).attr('data-src'));
   });
+}
+
+  btn.click(doSomething());
+
+  // $('.clickme').parent.find("h3").click(doSomething());
 
   modal.click(function() {
     var target = $(this)
     modal.hide();
-    $('body').removeClass('showing-modal');
+    $('body').css('margin-right', 0).removeClass('showing-modal');
 
   })
   .find('.immune').click(function(e) {
