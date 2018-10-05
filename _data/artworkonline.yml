@@ -30,29 +30,29 @@ art:
   preview: 'Portfolio/previews/photoshopSkills.jpg'
   content:
     - image: 'Portfolio/photoHandling/1.jpg'
-      description: Before: Unwanted person in the background
+      description: "Before: Unwanted person in the background"
     - image: 'Portfolio/photoHandling/2.jpg'
-      description: After: Photo cropped, slight retouching, and person removed
+      description: "After: Photo cropped, slight retouching, and person removed"
     - image: 'Portfolio/photoHandling/img 1a.jpg'
-      description: Before: Group photo with background
+      description: "Before: Group photo with background"
     - image: 'Portfolio/photoHandling/img 1b.jpg'
-      description: After: Group photo, background removed
+      description: "After: Group photo, background removed"
     - image: 'Portfolio/photoHandling/img-2a.jpg'
-      description: Before: Girl with complicated background
+      description: "Before: Girl with complicated background"
     - image: 'Portfolio/photoHandling/img-2b.jpg'
-      description: After: Girl, background removed
+      description: "After: Girl, background removed"
 
 - title: "National Graphic"
-preview: 'Portfolio/previews/nationalGraphic.jpg'
-content:
-    - image: 'Portfolio/nationalGraphic/laptopMockup.jpg'
-      description: A laptop mockup of the <a href="http://grafisk.nextkbh.dk/elever/isab7099/theNationalGraphic/">website</a>
-    - image: 'Portfolio/nationalGraphic/newspaperMockup.jpg'
-      description: A mockup of the newspaper, printed
-    - image: 'Portfolio/nationalGraphic/newspaperView.jpg'
-      description: The front page, as designed by me as a rush job
+  preview: 'Portfolio/previews/nationalGraphic.jpg'
+  content:
+      - image: 'Portfolio/nationalGraphic/laptopMockup.jpg'
+        description: A laptop mockup of the <a href="http://grafisk.nextkbh.dk/elever/isab7099/theNationalGraphic/">website</a>
+      - image: 'Portfolio/nationalGraphic/newspaperMockup.jpg'
+        description: A mockup of the newspaper, printed
+      - image: 'Portfolio/nationalGraphic/newspaperView.jpg'
+        description: The front page, as designed by me as a rush job
 
-  - title: "Krigsmuseet"
+- title: "Krigsmuseet"
   preview: 'Portfolio/previews/krigsmuseet.jpg'
   content:
     - image: 'Portfolio/krigsMuseet/phoneMockup.jpg'
