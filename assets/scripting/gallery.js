@@ -2,10 +2,11 @@ $(function() {
 
   var modal = $('.modal')
   var btn = $('.clickme')
+  var btnText = $('.imSoMadAtJavascriptPLS')
   var scrollBarWidth = window.innerWidth - document.body.offsetWidth;
 
-function doSomething() {
-  var target = $(this);
+function doSomething(target) {
+
 console.log('click');
   $('body')
     .css('margin-right', scrollBarWidth)
@@ -18,9 +19,15 @@ console.log('click');
   });
 }
 
-  btn.click(doSomething());
+btn.click(function() {
+  var target = $(this);
+  doSomething(target);
+});
 
-  // $('.clickme').parent.find("h3").click(doSomething());
+btnText.click(function() {
+  var target = $(this);
+  doSomething(target);
+});
 
   modal.click(function() {
     var target = $(this)

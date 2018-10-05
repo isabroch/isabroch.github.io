@@ -62,7 +62,7 @@
   transition: 0.2s;
 }
 
-.clickme:hover {
+.container > div:hover .clickme {
       -webkit-transform: scale(1.02) scalez(2);
               transform: scale(1.02) scalez(2);
 }
