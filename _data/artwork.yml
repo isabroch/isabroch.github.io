@@ -1,0 +1,89 @@
+art:
+
+- title: "Illustrations"
+  preview: Portfolio\Previews\illustrations.png
+  content:
+    - image: Portfolio\Couple\look into each other eyes.png
+      description: A commission for a client involving two of their DnD characters in a 'romantic' pose.
+    - image: Portfolio\finida.png
+      description: A commission for a client of their original character, Dave, based off of other drawn images.
+    - image: Portfolio\mmmh its izzy.png
+      description: A practice drawing of myself, stylized.
+    - image: Portfolio\Nikolaj-Commiss-axe.png
+      description: A commission for a client based off of a video game character.
+    - image: Portfolio\ny pingu.png
+      description: A commision for a client based off of their descriptions.
+
+- title: "Illustrator Skills"
+  preview: Portfolio\Previews\illustratorskills.png
+  content:
+    - image:
+      description: text
+
+- title: "Photoshop Skills"
+  preview: Portfolio\Previews\photoshopskills.png
+  content:
+    - image:
+      description: text
+
+- title: "Hundelufter Flyer"
+  preview: Portfolio\Previews\hundeluft.png
+  content:
+    - image: Portfolio\poster mockup.jpg
+      description: A mockup of poster
+    - image: Portfolio\for printing again.jpg
+      description: Poster design
+
+- title: "Space Station Event Invite"
+  preview: Portfolio\Previews\spacestation.png
+  content:
+    - image: Portfolio\SpaceStationInvite\a.png
+      description: Mockup of the invite
+    - image: Portfolio\SpaceStationInvite\cover_of_card_by_nelizzy-dap8ldr.png
+      description: Design of the invite cover
+    - image: Portfolio\SpaceStationInvite\inside_of_the_card_by_nelizzy-dap8ldn.png
+      description: Design of the inside of the card
+
+- title: "Timeless Invite Design"
+  preview: Portfolio\Previews\timeless.png
+  content:
+    - image: Portfolio\Mom Invite\invite mockup.jpg
+      description: Mockup of the invite
+    - image: Portfolio\Mom Invite\invite (1).png
+      description: Final version picked by client
+    - image: Portfolio\Mom Invite\invite (2).png
+      description: Other possible version shown to client
+    - image: Portfolio\Mom Invite\invite (3).png
+      description: Another possible version shown to client
+
+- title: "KFUM Spejderne Rollup Design"
+  preview: Portfolio\Previews\rollup.png
+  content:
+    - image: Portfolio\roll up mockup.jpg
+      description: Mockup of the rollup
+    - image: Portfolio\roll ups (3).jpg
+      description: Rollup designed for client
+
+- title: "Wolfie Pack Logo Design"
+  preview: Portfolio\Previews\wolfie.png
+  content:
+    - image: Portfolio\wolfie tshirt mockup.jpg
+      description: Mockup of logo on a shirt
+    - image: Portfolio\Logo_Wolfie.png
+      description: Logo design
+
+- title: "Zenna Business Card Design"
+  preview: Portfolio\Previews\zenna.png
+  content:
+    - image: Portfolio\Zenna Business Card\mockup.jpg
+      description: A mockup of the business card for my client
+    - image: Portfolio\Zenna Business Card\b1.png
+      description: One of the many drafted design ideas
+    - image: Portfolio\Zenna Business Card\a1.png
+      description: Explored designs regarding vertical business cards
+    - image: Portfolio\Zenna Business Card\bc1.png
+      description: A business card based off of the bird cage imagery
+    - image: Portfolio\Zenna Business Card\C1.png
+      description: Other symbols/imagery explored
+    - image: Portfolio\Zenna Business Card\ib1.png
+      description: Iceberg with hidden face shadows idea

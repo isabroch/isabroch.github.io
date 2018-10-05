@@ -1,2 +1,2 @@
-# isabroch.github.io
-My portfolio as a website
+# artizzy.github.io
+Portfolio site

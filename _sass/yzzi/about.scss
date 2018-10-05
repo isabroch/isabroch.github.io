@@ -1,0 +1,139 @@
+$bg : transparent;
+$color1 : #7E2634;
+
+%sizelimits {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.colorbars {
+  background: #7E2634;
+  height: 5px;
+  width: 100vw;
+}
+
+.fab {
+  font-size:3em;
+  padding: 0.2em;
+}
+
+.about {
+  position: relative;
+  min-width: 250px;
+  background: $bg;
+
+  a {
+    color: $color1;
+  }
+  a:visited {
+    color: $color1;
+  }
+  a:hover {
+    color: #111;
+  }
+
+    .landscape {
+      display: none;
+    }
+    .portrait {
+      width: 90%;
+      max-width:350px;
+      position: relative;
+      top: 0.5px;
+    }
+    img {
+      @extend %sizelimits;
+    }
+    .wrap {
+      max-height: calc(1.3em * 3.5);
+      position: relative;
+      padding: 20px;
+      overflow: hidden;
+    }
+  }
+
+.aboutdesc {
+  @extend %sizelimits;
+  width: 90%;
+  position: relative;
+  margin-top: -0.5em;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align:center;
+  }
+
+.read-more {
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0px 10px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+@import "arrow";
+
+@media only screen and (min-width: 390px) and (max-width:47.9em){
+  .about {
+    background: $bg url("https://i.imgur.com/F5Yfn90.png");
+    background-position: top left;
+    background-size: 350px;
+    background-repeat: repeat-x;
+  }
+}
+
+@media only screen and (min-width:47.9em){
+  .contain {
+    margin-top:5px;
+    margin-bottom:20px;}
+  .about {
+    max-width: 60em;
+    display: block;
+    margin: 0 auto;
+      .portrait {
+        display: none;
+      }
+      .landscape {
+        display: block;
+      }
+      img {
+        float: left;
+        padding-left: 20px;
+        max-width: 200px;
+      }
+      .aboutdesc {
+        top:0;
+        padding-top:25px;
+        width: 95%;
+        max-height: 100%;
+        overflow: visible;
+      }
+      .wrap {
+        overflow: visible;
+        max-height:none;
+      }
+  }
+
+  .read-more {display: none;}
+  .colorbars {
+    width: 1vw;
+    height: 100vh;
+  }
+  .left {
+    position: fixed;
+    left: 0;
+  }
+  .right {
+    position: fixed;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width:80em) {
+  .colorbars {
+    width: 12vw; }
+}

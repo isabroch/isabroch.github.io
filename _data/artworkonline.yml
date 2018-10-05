@@ -1,0 +1,117 @@
+art:
+
+- title: "Illustrations"
+  preview: 'Portfolio/previews/illustration.jpg'
+  content:
+    - image: 'Portfolio/art/couple.png'
+      description: A commission for a client involving two of their DnD characters in a 'romantic' pose
+    - image: 'Portfolio/art/finida.png'
+      description: A commission for a client of their original character, Dave, based off of other drawn images
+    - image: 'Portfolio/art/izzy.png'
+      description: A practice drawing of myself, stylized
+    - image: 'Portfolio/art/Nikolaj-Commiss-axe.png'
+      description: A commission for a client based off of a video game character
+    - image: 'Portfolio/art/pingu.png'
+      description: A commision for a client based off of their descriptions
+
+- title: "Vector Portraits"
+  preview: 'Portfolio/previews/portraitVector.jpg'
+  content:
+    - image: 'Portfolio/illustratorPortraits/fil_izzyvector.png'
+      description: "1/4 vector stylized portraits based off of photos"
+    - image: 'Portfolio/illustratorPortraits/linda-icon.png'
+      description: "2/4 vector stylized portraits based off of photos"
+    - image: 'Portfolio/illustratorPortraits/nanna-icon.png'
+      description: "3/4 vector stylized portraits based off of photos"
+    - image: 'Portfolio/illustratorPortraits/sofie-icon.png'
+      description: "4/4 vector stylized portraits based off of photos"
+
+- title: "Photoshop Skills"
+  preview: 'Portfolio/previews/photoshopSkills.jpg'
+  content:
+    - image: 'Portfolio/photoHandling/1.jpg'
+      description: Before: Unwanted person in the background
+    - image: 'Portfolio/photoHandling/2.jpg'
+      description: After: Photo cropped, slight retouching, and person removed
+    - image: 'Portfolio/photoHandling/img 1a.jpg'
+      description: Before: Group photo with background
+    - image: 'Portfolio/photoHandling/img 1b.jpg'
+      description: After: Group photo, background removed
+    - image: 'Portfolio/photoHandling/img-2a.jpg'
+      description: Before: Girl with complicated background
+    - image: 'Portfolio/photoHandling/img-2b.jpg'
+      description: After: Girl, background removed
+
+- title: "National Graphic"
+preview: 'Portfolio/previews/nationalGraphic.jpg'
+content:
+    - image: 'Portfolio/nationalGraphic/laptopMockup.jpg'
+      description: A laptop mockup of the <a href="http://grafisk.nextkbh.dk/elever/isab7099/theNationalGraphic/">website</a>
+    - image: 'Portfolio/nationalGraphic/newspaperMockup.jpg'
+      description: A mockup of the newspaper, printed
+    - image: 'Portfolio/nationalGraphic/newspaperView.jpg'
+      description: The front page, as designed by me as a rush job
+
+  - title: "Krigsmuseet"
+  preview: 'Portfolio/previews/krigsmuseet.jpg'
+  content:
+    - image: 'Portfolio/krigsMuseet/phoneMockup.jpg'
+      description: A mobile mockup of the <a href="http://grafisk.nextkbh.dk/elever/isab7099/krigsmuseet/">website</a>
+    - image: 'Portfolio/krigsMuseet/posterMockup.jpg'
+      description: A mockup of the poster, printed
+    - image: 'Portfolio/krigsMuseet/poster.jpg'
+      description: The poster design
+
+- title: "Dog Walking Flyer"
+  preview: 'Portfolio/previews/hundeluft.jpg'
+  content:
+    - image: 'Portfolio/hundeLuft/poster mockup.jpg'
+      description: A mockup of poster
+    - image: 'Portfolio/hundeLuft/for printing again.jpg'
+      description: Poster design
+
+- title: "RFA Party"
+  preview: 'Portfolio/previews/spacestation.jpg'
+  content:
+    - image: 'Portfolio/SpaceStationInvite/mockup.jpg'
+      description: Mockup of the invite
+    - image: 'Portfolio/SpaceStationInvite/cover.jpg'
+      description: Design of the invite cover
+    - image: 'Portfolio/SpaceStationInvite/inside.jpg'
+      description: Design of the inside of the card
+
+- title: "Timeless"
+  preview: 'Portfolio/previews/timeless.jpg'
+  content:
+    - image: 'Portfolio/momInvite/invite-mockup.jpg'
+      description: Mockup of the invite
+    - image: 'Portfolio/momInvite/invite-(1).jpg'
+      description: Final version picked by client
+    - image: 'Portfolio/momInvite/invite-(1).jpg'
+      description: Other possible version shown to client
+    - image: 'Portfolio/momInvite/invite-(1).jpg'
+      description: Another possible version shown to client
+
+- title: "KFUM Spejderne"
+  preview: 'Portfolio/previews/rollup.jpg'
+  content:
+    - image: 'Portfolio/rollUp/mockup.jpg'
+      description: Mockup of the rollup
+    - image: 'Portfolio/rollUp/rollUp.jpg'
+      description: Rollup designed for client
+
+- title: "Wolfie Pack"
+  preview: 'Portfolio/previews/wolfie.jpg'
+  content:
+    - image: 'Portfolio/wolfiePack/wolfie tshirt mockup.jpg'
+      description: Mockup of logo on a shirt
+    - image: 'Portfolio/wolfiePack/Logo_Wolfie.png'
+      description: Logo design
+
+- title: "Zenna"
+  preview: 'Portfolio/previews/zenna.jpg'
+  content:
+    - image: 'Portfolio/zennaBusinessCard/mockup.jpg'
+      description: A mockup of the business card for my client
+    - image: 'Portfolio/zennaBusinessCard/draftStage.png'
+      description: The various designs I went through in draft stage

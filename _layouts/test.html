@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+  <div class="container">
+    {% for block in site.data.artwork.art %}
+    <img src="{{block.preview}}" class="clickme">
+
+    <div class="modal">
+      <div class="modalcontent">
+        <div class="text immune">
+        {{block.title}}
+        </div>
+        <div class="imagecontainer">{{block.images}}</div>
+
+      {{block.description}}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
